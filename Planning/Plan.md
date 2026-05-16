@@ -2,25 +2,26 @@
 
 The core problem is:
 
-> "I want a system that helps me study consistently, measure real work time, reduce distractions, and show progress over time."
+> "I have so many books i dont know wich ones i own and i wish i could check which i own"
 
-This way i can actually study instead of saying "I will do it at home" and then when i get home i play videogames.
+This way i am not buying duplicats of books
 
 ---------
 
 # Step 2
 
-I am going to use a desktop app created with python
+I am going to use a mobile app
 
 ----------
 
 # Step 3
 
-1. Start a session
-2. End a session
-3. Choose a subject
-4. save session to a database
-5. show total hours today
+1. Put a book in
+2. Look up a book
+3. Save books to database
+4. able to read qr code
+5. Show total of books i have
+6. Scan QR code
 
 -----------
 
@@ -42,7 +43,7 @@ Plan the data
 
 "What exists in my system"
 
-see in data folder
+see in data file
 
 ---------
 
@@ -59,11 +60,11 @@ also see in design file
 Learn what needs to be learned
 
 Learn:
-  * PySide6 basics
+  * Creating an app
   * SQLite basics
-  * Python database
-  * Project structure
-  * Git
+  * Scan QR code and access camera
+  * Import excel and put in database
+  * Basic app making
 
 These are the most important so if you dont know how to do this then learn it
 
@@ -80,6 +81,8 @@ do this after:
   * block websites via hosts file
   * monitor active windows
 
+Not nessicarily important
+
 ----------
 
 # Step 9
@@ -87,24 +90,15 @@ do this after:
 Add features in **Tiers**
 
 ### Tier 1 --- Core functionality
-  * timer
-  * subject
-  * save session
-  * statistic
+  * Put in book
+  * Access book
+  * Scan QR code
+  * Importing excel
 
 ### Tier 2 --- Wuality of Life
-  * streaks
-  * goals
-  * charts
-  * reminders
-  * dark mode
+  
 
 ### Tier 3 --- Advanced features
-  * distraction blocking
-  * background service
-  * automatic session detection
-  * productivity scoring
-  * exports
-  * sync between devices
+
 
 
